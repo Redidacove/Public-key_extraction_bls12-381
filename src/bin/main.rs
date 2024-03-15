@@ -14,7 +14,8 @@ fn main(){
     let g2=g.to_affine();
     let x=g2.x();
     let y=g2.y();
-    
-    println!("{}",x);
-    println!("{}",y);
+
+    println!("pub_key_x = {}",x);
+    println!("pub_key_y = {}",y);
+    println!("pubkey concatenated = {}{}",x,y);
 }
